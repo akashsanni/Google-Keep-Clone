@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap"></link>
+    <link rel="stylesheet" href="style.css">
+    <title>Google Keep Clone</title>
+</head>
+<body>
+  <main>
+    <header>
+        <img class="header-logo" src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png">
+        <h2 class="header-title">Google Keep</h2>
+    </header>
+    <div id="form-container">
+        <form id="form" autocomplete="off">
+            <input id="note-title" type="text" placeholder="Title">
+            <input id="note-text" type="text" placeholder="Take a note...">
+            <div id="form-buttons">
+                <button type="submit" id="submit-button">Submit</button>
+                <button type="button" id="form-button">Close</button>
+            </div>
+        </form>
+    </div>
+    <div id="notes">
+
+    </div>
+    <div id="placeholder">
+        <img id="placeholder-logo" src="./images/electric-light-bulb.png">
+        <p id="placeholder-text">Notes you add appear here</p>
+    </div>
+  </main>  
+    <script src="app.js"></script>
+</body>
+</html>
