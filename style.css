@@ -269,6 +269,12 @@
     transition: opacity 0.218s ease-in-out, background-color 0.218s ease-in-out,
       box-shadow 0.218s ease-in-out;
   }
+
+  @media (min-width: 150px) and (max-width: 470px){
+    .toolbar{
+      opacity: 1;
+    }
+  }
   
   .toolbar:hover {
     opacity: 1;
